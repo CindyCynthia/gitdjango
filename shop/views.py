@@ -6,3 +6,5 @@ def HomePageView(request):
 
 def ContactPageView(request):
     return render(request, 'pages/contact.html')    
+def careerpageview(request):
+    return render(request,'pages/career.html')
